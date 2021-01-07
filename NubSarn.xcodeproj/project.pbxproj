@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34DC72C7BBAC0678FA541463 /* Pods_NubSarn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19B562E9632371FD0556C4E /* Pods_NubSarn.framework */; };
 		A3B40BC225A5BAE8007B1FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B40BC125A5BAE8007B1FD8 /* AppDelegate.swift */; };
 		A3B40BC425A5BAE8007B1FD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B40BC325A5BAE8007B1FD8 /* SceneDelegate.swift */; };
 		A3B40BC625A5BAE8007B1FD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B40BC525A5BAE8007B1FD8 /* ViewController.swift */; };
 		A3B40BC925A5BAE8007B1FD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B40BC725A5BAE8007B1FD8 /* Main.storyboard */; };
 		A3B40BCB25A5BAE9007B1FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B40BCA25A5BAE9007B1FD8 /* Assets.xcassets */; };
 		A3B40BCE25A5BAE9007B1FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B40BCC25A5BAE9007B1FD8 /* LaunchScreen.storyboard */; };
+		A3B40BFB25A5BDEA007B1FD8 /* SukhumvitSet-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B40BF525A5BDEA007B1FD8 /* SukhumvitSet-Thin.ttf */; };
+		A3B40BFC25A5BDEA007B1FD8 /* SukhumvitSet-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B40BF625A5BDEA007B1FD8 /* SukhumvitSet-SemiBold.ttf */; };
+		A3B40BFD25A5BDEA007B1FD8 /* SukhumvitSet-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B40BF725A5BDEA007B1FD8 /* SukhumvitSet-Medium.ttf */; };
+		A3B40BFE25A5BDEA007B1FD8 /* SukhumvitSet-Text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B40BF825A5BDEA007B1FD8 /* SukhumvitSet-Text.ttf */; };
+		A3B40BFF25A5BDEA007B1FD8 /* SukhumvitSet-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B40BF925A5BDEA007B1FD8 /* SukhumvitSet-Bold.ttf */; };
+		A3B40C0025A5BDEA007B1FD8 /* SukhumvitSet-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B40BFA25A5BDEA007B1FD8 /* SukhumvitSet-Light.ttf */; };
+		A3B40C0325A6270F007B1FD8 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B40C0225A6270F007B1FD8 /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01392475419A7F97B7ECFC4E /* Pods-NubSarn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubSarn.debug.xcconfig"; path = "Target Support Files/Pods-NubSarn/Pods-NubSarn.debug.xcconfig"; sourceTree = "<group>"; };
 		A3B40BBE25A5BAE8007B1FD8 /* NubSarn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NubSarn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B40BC125A5BAE8007B1FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3B40BC325A5BAE8007B1FD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,15 @@
 		A3B40BCA25A5BAE9007B1FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3B40BCD25A5BAE9007B1FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3B40BCF25A5BAE9007B1FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B40BF525A5BDEA007B1FD8 /* SukhumvitSet-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SukhumvitSet-Thin.ttf"; sourceTree = "<group>"; };
+		A3B40BF625A5BDEA007B1FD8 /* SukhumvitSet-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SukhumvitSet-SemiBold.ttf"; sourceTree = "<group>"; };
+		A3B40BF725A5BDEA007B1FD8 /* SukhumvitSet-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SukhumvitSet-Medium.ttf"; sourceTree = "<group>"; };
+		A3B40BF825A5BDEA007B1FD8 /* SukhumvitSet-Text.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SukhumvitSet-Text.ttf"; sourceTree = "<group>"; };
+		A3B40BF925A5BDEA007B1FD8 /* SukhumvitSet-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SukhumvitSet-Bold.ttf"; sourceTree = "<group>"; };
+		A3B40BFA25A5BDEA007B1FD8 /* SukhumvitSet-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SukhumvitSet-Light.ttf"; sourceTree = "<group>"; };
+		A3B40C0225A6270F007B1FD8 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		C19B562E9632371FD0556C4E /* Pods_NubSarn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NubSarn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3BCC86BE519284D77F8BA9 /* Pods-NubSarn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubSarn.release.xcconfig"; path = "Target Support Files/Pods-NubSarn/Pods-NubSarn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34DC72C7BBAC0678FA541463 /* Pods_NubSarn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55D4CD667D2DC77A29067228 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C19B562E9632371FD0556C4E /* Pods_NubSarn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3B40BB525A5BAE7007B1FD8 = {
 			isa = PBXGroup;
 			children = (
 				A3B40BC025A5BAE8007B1FD8 /* NubSarn */,
 				A3B40BBF25A5BAE8007B1FD8 /* Products */,
+				E414626D2BCDC29A1E0E15CA /* Pods */,
+				55D4CD667D2DC77A29067228 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +87,78 @@
 			children = (
 				A3B40BC125A5BAE8007B1FD8 /* AppDelegate.swift */,
 				A3B40BC325A5BAE8007B1FD8 /* SceneDelegate.swift */,
-				A3B40BC525A5BAE8007B1FD8 /* ViewController.swift */,
-				A3B40BC725A5BAE8007B1FD8 /* Main.storyboard */,
+				A3B40BD925A5BB2C007B1FD8 /* Presenter */,
+				A3B40BD825A5BB24007B1FD8 /* View */,
+				A3B40BD725A5BB1B007B1FD8 /* Model */,
+				A3B40BF425A5BDB8007B1FD8 /* Font */,
 				A3B40BCA25A5BAE9007B1FD8 /* Assets.xcassets */,
 				A3B40BCC25A5BAE9007B1FD8 /* LaunchScreen.storyboard */,
 				A3B40BCF25A5BAE9007B1FD8 /* Info.plist */,
 			);
 			path = NubSarn;
+			sourceTree = "<group>";
+		};
+		A3B40BD725A5BB1B007B1FD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3B40BD825A5BB24007B1FD8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3B40BDB25A5BB3D007B1FD8 /* ViewController */,
+				A3B40BDA25A5BB34007B1FD8 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3B40BD925A5BB2C007B1FD8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A3B40C0225A6270F007B1FD8 /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A3B40BDA25A5BB34007B1FD8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A3B40BC725A5BAE8007B1FD8 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A3B40BDB25A5BB3D007B1FD8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A3B40BC525A5BAE8007B1FD8 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A3B40BF425A5BDB8007B1FD8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A3B40BF925A5BDEA007B1FD8 /* SukhumvitSet-Bold.ttf */,
+				A3B40BFA25A5BDEA007B1FD8 /* SukhumvitSet-Light.ttf */,
+				A3B40BF725A5BDEA007B1FD8 /* SukhumvitSet-Medium.ttf */,
+				A3B40BF625A5BDEA007B1FD8 /* SukhumvitSet-SemiBold.ttf */,
+				A3B40BF825A5BDEA007B1FD8 /* SukhumvitSet-Text.ttf */,
+				A3B40BF525A5BDEA007B1FD8 /* SukhumvitSet-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E414626D2BCDC29A1E0E15CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01392475419A7F97B7ECFC4E /* Pods-NubSarn.debug.xcconfig */,
+				EE3BCC86BE519284D77F8BA9 /* Pods-NubSarn.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3B40BD225A5BAE9007B1FD8 /* Build configuration list for PBXNativeTarget "NubSarn" */;
 			buildPhases = (
+				FB07ADBCEC583670559E38E6 /* [CP] Check Pods Manifest.lock */,
 				A3B40BBA25A5BAE8007B1FD8 /* Sources */,
 				A3B40BBB25A5BAE8007B1FD8 /* Frameworks */,
 				A3B40BBC25A5BAE8007B1FD8 /* Resources */,
+				5CFDF11E60A4FDBC6FE58DE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +221,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B40BCE25A5BAE9007B1FD8 /* LaunchScreen.storyboard in Resources */,
+				A3B40BFC25A5BDEA007B1FD8 /* SukhumvitSet-SemiBold.ttf in Resources */,
+				A3B40BFB25A5BDEA007B1FD8 /* SukhumvitSet-Thin.ttf in Resources */,
+				A3B40C0025A5BDEA007B1FD8 /* SukhumvitSet-Light.ttf in Resources */,
+				A3B40BFF25A5BDEA007B1FD8 /* SukhumvitSet-Bold.ttf in Resources */,
 				A3B40BCB25A5BAE9007B1FD8 /* Assets.xcassets in Resources */,
 				A3B40BC925A5BAE8007B1FD8 /* Main.storyboard in Resources */,
+				A3B40BFD25A5BDEA007B1FD8 /* SukhumvitSet-Medium.ttf in Resources */,
+				A3B40BFE25A5BDEA007B1FD8 /* SukhumvitSet-Text.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CFDF11E60A4FDBC6FE58DE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NubSarn/Pods-NubSarn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NubSarn/Pods-NubSarn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NubSarn/Pods-NubSarn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB07ADBCEC583670559E38E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NubSarn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A3B40BBA25A5BAE8007B1FD8 /* Sources */ = {
@@ -140,6 +284,7 @@
 				A3B40BC625A5BAE8007B1FD8 /* ViewController.swift in Sources */,
 				A3B40BC225A5BAE8007B1FD8 /* AppDelegate.swift in Sources */,
 				A3B40BC425A5BAE8007B1FD8 /* SceneDelegate.swift in Sources */,
+				A3B40C0325A6270F007B1FD8 /* Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +428,14 @@
 		};
 		A3B40BD325A5BAE9007B1FD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01392475419A7F97B7ECFC4E /* Pods-NubSarn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6F37622PU;
 				INFOPLIST_FILE = NubSarn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +449,14 @@
 		};
 		A3B40BD425A5BAE9007B1FD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3BCC86BE519284D77F8BA9 /* Pods-NubSarn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6F37622PU;
 				INFOPLIST_FILE = NubSarn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

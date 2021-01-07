@@ -55,6 +55,22 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string></string>
+	</array>
+	<key>item 5</key>
+	<string>SukhumvitSet-Thin</string>
+	<key>item 4</key>
+	<string>SukhumvitSet-Text</string>
+	<key>item 3</key>
+	<string>SukhumvitSet-SemiBold</string>
+	<key>item 2</key>
+	<string>SukhumvitSet-Medium</string>
+	<key>item 1</key>
+	<string>SukhumvitSet-Bold</string>
+	<key>item 0</key>
+	<string>SukhumvitSet-Light</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
